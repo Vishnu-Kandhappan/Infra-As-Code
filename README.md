@@ -4,6 +4,10 @@
 
 ---
 
+
+![Terraform workflow layers](./.docs/basic_workflow.png)
+
+
 ##  What is Infrastructure as Code (IaC)?
 
 **Infrastructure as Code (IaC)** is the practice of **defining, provisioning, and managing infrastructure using declarative code** instead of manual processes or scripts.
@@ -121,7 +125,7 @@ terraform plan -var-file=<env>.tfvars -out=tfplan
 terraform apply tfplan
 terraform output -json
 ```
-![Terraform workflow layers](./.docs/basic_workflow.png)
+
 
 
 ## What Enterprise Terraform brings in 
