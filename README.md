@@ -111,7 +111,7 @@ Example command sequence (local developer):
 
 ```bash
 terraform version
-terraform login                    # for Terraform Cloud / remote operations when needed
+terraform login                    # for Terraform Cloud (optional, when you are using enterprise account only this is required)
 terraform fmt -check               # code formatting
 terraform validate                 # syntax & basic checks
 terraform init -backend-config=... # or terraform init -reconfigure
@@ -121,6 +121,7 @@ terraform plan -var-file=<env>.tfvars -out=tfplan
 terraform apply tfplan
 terraform output -json
 ```
+![Terraform workflow layers](./docs/basic_workflow.png)
 
 
 ## What Enterprise Terraform brings in 
