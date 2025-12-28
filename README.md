@@ -74,7 +74,7 @@ https://developer.hashicorp.com/terraform/install
 - Terraform modules (collections of configs)
 - Terraform plans/state (artifacts generated during execution)
 
-### Terraform Folder structure (cleaned)
+### Terraform Folder structure 
 Use this as a recommended developer layout — keep modules and environment overlays separated for clarity:
 
 ```text
