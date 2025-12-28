@@ -121,7 +121,7 @@ terraform plan -var-file=<env>.tfvars -out=tfplan
 terraform apply tfplan
 terraform output -json
 ```
-![Terraform workflow layers](./docs/basic_workflow.png)
+![Terraform workflow layers](./.docs/basic_workflow.png)
 
 
 ## What Enterprise Terraform brings in 
