@@ -5,7 +5,7 @@
 ---
 
 
-![Terraform workflow layers](./.docs/basic_workflow.png)
+![Terraform workflow layers](./.docs/IAC.png)
 
 
 ##  What is Infrastructure as Code (IaC)?
