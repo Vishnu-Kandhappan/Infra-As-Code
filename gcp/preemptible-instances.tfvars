@@ -1,0 +1,9 @@
+project_id = "devops-poc-482509"
+region = "us-central1"
+zone = "us-central1-c"
+machine_type = "e2-standard-4"
+image_family = "ubuntu-2204-lts"
+image_project = "ubuntu-os-cloud"
+preemptible = true
+num_instances = 1
+instance_name_prefix = "preemptible-instance"
